@@ -5,7 +5,7 @@ def xor(a,b):
         return(False)
     return(True)
 
-inTxt = input('Enter text to wobble: ') # Test Case: Does tHIs work?
+inTxt = input('Enter text to wobble: ')
 inWblStart = input('Start w/ uppercase (default) or lowercase: ') # & Means 'input of starting wobble'
 startLower = (inWblStart.lower() == 'lowercase') # & Means 'should i start w/ lower or upper?'
 
